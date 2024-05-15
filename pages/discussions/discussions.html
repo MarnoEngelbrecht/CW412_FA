@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussions</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../discussions/discussions.css">
+    <script src="../discussions/discussions.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../styles.js"></script>
+</head> 
+<body>
+  <nav id="myNav">
+    <a href="../homepage/homepage.html"><img src="../../Images/logo1.png" alt="Logo"></a>
+        <div class="image"></div>
+        <div class="spacer"></div>
+    <ul>
+        <li class="menu" onclick="onMenuClick()"><i class="fa fa-bars"></i></li>
+        <li><a href="../homepage/homepage.html">Home</a></li>
+        <li><a href="../timetable/timetable.html">Timetable</a></li>
+        <li><a href="../discussions/discussions.html">Discussions</a></li>
+        <li><a href="../share-resources/share-resources.html">Share Resources</a></li>
+        <li><a href="../about-us/about-us.html">About Us</a></li>
+        <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+    </ul>
+    </nav>
+</div>
+<div class="drop-down" id="drop-down">
+    <ul>
+        <li><a href="../homepage/homepage.html">Home</a></li>
+        <li><a href="../timetable/timetable.html">Timetable</a></li>
+        <li><a href="../discussions/discussions.html">Discussions</a></li>
+        <li><a href="../discussions/discussions.html">Share Resources</a></li>
+        <li><a href="../about-us/about-us.html">About Us</a></li>
+        <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+    </ul>
+</div>
+
+
+    <div class="content" id="discussionsPage" >
+      <br>
+        <h2>Discussion</h2>
+          <p style="font-family: 'Times New Roman', Times, serif;">Welcome curious people. Feel free to open the doors to a wide world of various discussions.</p>
+      
+          <form>
+            <label for="userName">Your Name:</label><br>
+            <input type="text" id="userName" name="userName"><br>
+            <label for="comment">Your comment</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+            <button  type="submit">Submit</button>
+          </form><hr>
+      
+        <div id="comments">
+      
+        </div>
+      </div>
+
+</body>
+<script src = "./Index DB discussion.js"></script>
+</html>

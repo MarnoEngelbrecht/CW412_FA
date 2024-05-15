@@ -1,0 +1,128 @@
+.box-needhelp{
+    height: 750px;
+    width : 50%;
+    margin-right: 2px;
+    padding-right: 5.2px;
+    border: 0px transparent;
+    background-color: transparent;
+    border-radius: 3px ease;
+    margin-right: 50px;
+  }
+
+  .box-needhelp-container {
+    display: flex;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 200px;
+  }
+  .container-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 850px;
+  }
+
+    
+  .flexbox-contact-us-containter {
+    width: 50%;
+    height: auto;
+
+  }
+
+
+
+
+  #flexbox-contactus {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 590px;
+    width: 500px;
+    margin: 0;
+    border: 0px solid black;
+    border-radius: 25px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.007);
+    display: flex;
+  }
+      
+  #flexbox-contactus:hover {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    color: black;
+    border: 3.5px solid rgb(7, 7, 7);
+    transition-duration: 3s;
+  }
+
+  legend{
+    color: aliceblue; /* changed legend text color*/
+  }
+
+  label{
+    color: aliceblue;
+  }
+
+  .container {/* to align the box to the center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom{/* custom layout for input fields*/
+    position:relative;
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  .custom input, select{
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance:none;
+    -moz-appearance: none;
+    appearance: none;
+    background: rgb(7, 7, 7);
+    color: white;
+    padding: 6.2px;
+    border-radius:3px;
+    width: 250px;
+    outline-color: rgb(218, 24, 218);
+    font-size: 12px;
+  }
+
+  .custom .placeholder{ 
+    position: absolute;
+    left: 17px;
+    top: calc(50% + 10px);
+    color: white;
+    transform: translateY(-50%);
+    transition: top 0.3s ease, top 0.3s ease, top 0.3s ease;
+  }
+
+  .custom input:valid + .placeholder,
+  .custom input:focus + .placeholder{
+    top: 4px;
+    font-size: 10px;
+    color: white;
+    background: inherit;
+  }
+
+
+  #flexbox-maps { /* Stores maps'*/
+    height: 500px;
+    width : 100%;
+    flex-direction: row;
+    border: 4.5px solid rgb(0, 0, 0);
+    margin: 3.5px;
+    padding: 5.2px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.button {
+    background: red;
+    color: #fff; border: 2.5px;
+    border-radius: 5px; 
+    height: 20px;
+}

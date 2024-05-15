@@ -1,0 +1,1 @@
+Devide Discussion chat element from the text to make the chat discussion scrollable. Make sure to get some devider between messages, ensuring each can be read seperatly, such as borders, padding and margin. Update styling for discussion, include min and max widths. Make input more user friendly.  Keep all inputs and buttons the same styling across the entire webpage.

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Resources</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../share-resources/share-resources.css">
+    <script src="../share-resources/share-resources.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../styles.js"></script>
+    
+</head>
+<body>
+  <nav id="myNav">
+    <a href="../homepage/homepage.html"><img src="../../Images/logo1.png" alt="Logo"></a>
+        <div class="image"></div>
+        <div class="spacer"></div> 
+    <ul>
+        <li class="menu" onclick="onMenuClick()"><i class="fa fa-bars"></i></li>
+        <li><a href="../homepage/homepage.html">Home</a></li>
+        <li><a href="../timetable/timetable.html">Timetable</a></li>
+        <li><a href="../discussions/discussions.html">Discussions</a></li>
+        <li><a href="../share-resources/share-resources.html">Share Resources</a></li>
+        <li><a href="../about-us/about-us.html">About Us</a></li>
+        <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+    </ul>
+    </nav>
+</div>
+<div class="drop-down" id="drop-down">
+    <ul>
+        <li><a href="../homepage/homepage.html">Home</a></li>
+        <li><a href="../timetable/timetable.html">Timetable</a></li>
+        <li><a href="../discussions/discussions.html">Discussions</a></li>
+        <li><a href="../discussions/discussions.html">Share Resources</a></li>
+        <li><a href="../about-us/about-us.html">About Us</a></li>
+        <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+    </ul>
+</div>
+
+
+    <div class="content" id="share-resourcesPage">
+      <br>
+        <h2>Share Resources</h2>
+        <p style="font-family: 'Times New Roman', Times, serif;">Share helpful resources to enhance the learning experience.</p>
+        <hr>
+        
+        <form id="resourceForm">
+          <label for="resourceName">Resource Name:</label><br>
+          <input type="text" id="resourceName" name="resourceName"><br><br>
+          <label for="resourceFile">Upload Resource (PDF only):</label><br><br>
+          <input type="file" id="resourceFile" name="resourceFile" accept="application/pdf"><br>
+          <button id="btn-submit" type="button">Submit</button><br><br>
+        </form><hr>
+      
+        <div id="resources">
+        </div>
+      
+      </div>
+
+     
+</body>
+<script src = "Index DB share resources 1.js"></script>
+</html> 

@@ -1,0 +1,152 @@
+.scroller {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.scroller_inner {
+    display: flex;
+    padding-block: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+
+.scroller[data-animated="true"] .scroller_inner {
+    width: fit-content; 
+    flex-wrap: nowrap;
+    animation: scroll 12s linear infinite;
+}
+
+.scroller[data-animated="true"] .scroller_inner:hover {
+    animation-play-state: paused;
+    
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+.box-jan{
+    height: 750px;
+    width : 300px;
+    margin-right: 2px;
+    padding-right: 5.2px;
+    border: 0px transparent;
+    background-color: transparent;
+    border-radius: 3px ease;
+    margin-right: 50px;
+    }
+.box-ewert{
+    height: 750px;
+    width : 300px;
+    margin-right: 2px;
+    padding-right: 5.2px;
+    border: 0px transparent;
+    background-color: transparent;
+    border-radius: 3px ease;
+    margin-left:250px;
+    margin-right: 250px; 
+  }
+  
+.box-justin{
+    height: 750px;
+    width : 300px;
+    margin-right: 2px;
+    padding-right: 5.2px;
+    border: 0px transparent;
+    background-color: transparent;
+    border-radius: 3px ease;
+    margin-right: 50px;    
+  }
+
+  .box-aboutus{ /*What is Ctu Buddy and system pupose*/
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 12px solid inherit;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-vision{/* vision*/
+    height: 700px;
+    width: 50%;
+    margin: 10px 20px 10px 20px; /* top right bottom left */
+    padding: 10px 20px 10px 0px; /* top right bottom left */
+    background-color: transparent;
+    border-right: #000000 solid;
+  }
+
+  .box-mission{/* mission*/
+    height: 700px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+  }
+ 
+  .box-breakdown{/*Breakdown*/
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 12px solid inherit;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    transform-origin: right;
+  }
+
+  .flexingbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: auto; 
+  }
+
+  .container-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 850px;
+  }
+
+  .tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+}
+
+.tag-list li {
+    padding: 1rem;
+    background: rgb(34, 45, 66);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem rgba(0, 0, 0, 0);
+    width: 300px;
+    min-height: 120px;
+
+}
+
+.tag-list li:hover {
+    background: rgb(63, 84, 122);
+}
+  

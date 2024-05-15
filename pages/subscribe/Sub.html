@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../subscribe/sub.css">
+    <script src="../subscribe/sub.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../styles.js"></script>
+
+</head>
+<body>
+    <nav id="myNav">
+        <a href="../homepage/homepage.html"><img src="../../Images/logo1.png" alt="Logo"></a>
+            <div class="image"></div>
+            <div class="spacer"></div>
+        <ul>
+            <li class="menu" onclick="onMenuClick()"><i class="fa fa-bars"></i></li>
+            <li><a href="../homepage/homepage.html">Home</a></li>
+            <li><a href="../timetable/timetable.html">Timetable</a></li>
+            <li><a href="../discussions/discussions.html">Discussions</a></li>
+            <li><a href="../share-resources/share-resources.html">Share Resources</a></li>
+            <li><a href="../about-us/about-us.html">About Us</a></li>
+            <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div class="drop-down" id="drop-down">
+        <ul>
+            <li><a href="../homepage/homepage.html">Home</a></li>
+            <li><a href="../timetable/timetable.html">Timetable</a></li>
+            <li><a href="../discussions/discussions.html">Discussions</a></li>
+            <li><a href="../discussions/discussions.html">Share Resources</a></li>
+            <li><a href="../about-us/about-us.html">About Us</a></li>
+            <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <div class="box">
+            <img src="../../Images/logo1.png" style="height: 250px; width: auto;">
+            <h1> Subscribe</h1>
+            <br>
+            <form onsubmit="handleSubmit(event)">
+                <div class="form-box">
+                    <input type="text" name="Name" placeholder="Enter Your Name">
+                    <br>
+                    <input type="text" name="emailAddress" placeholder="Enter Your Email">
+                    <br>
+                    <button type="submit">SUBMIT</button>
+                </div>
+                <br>
+            </form>
+            <div id="success-message" style="display: none; color: rgb(224, 28, 208);">Thank you for subscribing!</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="footer">
+        <div class="footer-content">
+            <a href="../homepage/homepage.html">Home</a> |
+            <a href="../timetable/timetable.html">Timetable</a> |
+            <a href="../discussions/discussions.html">Discussion</a>  |
+            <a href="../share-resources/share-resources.html">Share Resources</a>  |
+            <a href="../about-us/about-us.html">About Us</a>  |
+            <a href="../contact-us/contact-us.html">Contact Us</a> 
+        </div>
+    </div>
+</body>
+</html>

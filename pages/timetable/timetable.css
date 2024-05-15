@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid rgb(105, 105, 105);
+    padding: 8px;
+    text-align: left;
+}
+td {
+    border: 1px solid rgb(105, 105, 105);
+    padding: 8px;
+    text-align: center;
+}
+td:hover {
+    cursor: pointer;
+}
+td.class-RD412:hover {
+    background: rgb(207,155,255);
+    background: linear-gradient(90deg, rgba(207,155,255,1) 37%, rgba(138,22,255,1) 80%);
+}
+td.class-ENA412:hover {
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+td.class-CF412:hover {
+    background: rgb(42,123,255);
+    background: linear-gradient(90deg, rgba(42,123,255,1) 0%, rgba(9,1,149,1) 50%, rgba(42,123,255,1) 100%);
+}
+td.class-CW412:hover {
+    background: rgb(0,231,247);
+    background: linear-gradient(90deg, rgba(0,231,247,1) 0%, rgba(1,30,245,1) 50%, rgba(0,231,247,1) 100%);
+}
+td.class-ITS:hover {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+td.class-Lunch:hover {
+    background: rgb(255,162,162);
+    background: linear-gradient(90deg, rgba(255,162,162,1) 29%, rgba(255,38,38,1) 80%);
+}
+td.class-GR:hover {
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+td.class-weekend:hover {
+    background: rgb(255,162,162);
+    background: linear-gradient(90deg, rgba(255,162,162,1) 29%, rgba(255,38,38,1) 80%);
+}

@@ -1,0 +1,62 @@
+:root {
+    --calander-image: url("../../Images/calander.jpg");
+    --discussion-image: url("../../Images/discussion.jpg")  
+  }
+
+.first, .second, .third {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    p {
+        margin-bottom: 100px;
+        color: #000000;
+        background-color: #80808052;
+    }
+}
+
+.first {
+    background-image: url('./Images/gian1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid inherit;
+    border-radius: 50px;
+}
+  
+.second {
+    background-image: var(--calander-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid inherit;
+    border-radius: 50px;
+}
+  
+.third {
+    background-image: var(--discussion-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid inherit;
+    border-radius: 50px;
+}
+
+.button-homepage {
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+}
+  
+.button-homepage:hover {
+cursor: pointer;
+background: -webkit-linear-gradient(to right, #0563c8, #044080);
+background: linear-gradient(to right, #0563c8, #044080);
+}
