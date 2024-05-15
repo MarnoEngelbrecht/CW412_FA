@@ -208,7 +208,8 @@ body {
   .drop-down {
       display: none;
       position: absolute;
-      top: calc(0 + 20);
+      margin-top: 64px;
+      top: calc(0 + 60);
       right: calc(0px + 8px);
       display: absolute;
       width: max-content;
